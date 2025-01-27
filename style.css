@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", serif;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+header {
+    background-color: #4962D6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoimg {
+    padding: 10px;
+    animation: bob 5s infinite ease-in-out;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+.slider {
+    background-color: #2D3C82;
+    padding: 5px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.map {
+    background-color: #2D3C82;
+    padding: 5px;
+
+}
+
+.maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.metkaimg {
+    position: absolute;
+    top: 427px;
+    left: 805px;
+}
+
+.Veka {
+    background-color: #2D3C82;
+    background-image: url(images/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+}
+
+.veka14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #071a7149;
+    border: 5px white solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.Markopolo {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-left: 100px;
+    width: 60%;
+    color: white;
+}
+
+.infovek14 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 30px;
+}
+
+.Markoimg {
+    width: 50%;
+}
+
+.veka16 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #071a7149;
+    flex-direction: row-reverse;
+    border: 5px white solid;
+    border-radius: 20px;
+}
+
+.Magelan {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-right: 100px;
+    width: 60%;
+    color: white;
+}
+
+.infovek16 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 30px;
+}
+
+.Magelanimg {
+    width: 70%;
+}
+
+.veka18 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #071a7149;
+    border: 5px white solid;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.JamesKyk {
+    font-size: 1.5em;
+    text-align: justify;
+    padding-left: 100px;
+    width: 60%;
+    color: white;
+}
+
+.infovek18 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 30px;
+}
+
+.JamesKykimg {
+    width: 40%;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+
+footer {
+    background-color: #071A71;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoFoot {
+    display: flex;
+    align-items: center;
+}
+
+.logoimgFoot {
+    padding: 10px;
+    animation: bobo 3s infinite ease-in-out;
+}
+
+h6 {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.iconsimg {
+    width: 80%;
+}
+
+@keyframes bob {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes bobo {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
