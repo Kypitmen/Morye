@@ -50,6 +50,24 @@ a:hover {
     opacity: 0.5;
 }
 
+.carousel {
+
+    margin: 0 auto;
+}
+
+.carousel img {
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.container {
+    background-color: #071a7149;
+    border: 5px white solid;
+    border-radius: 20px;
+    padding: 5%;
+}
+
 .slider {
     background-color: #2D3C82;
     padding: 5px;
@@ -70,6 +88,7 @@ h2 {
 
 .mapimg {
     width: 90%;
+    border-radius: 6%;
 }
 
 .maps {
@@ -77,6 +96,24 @@ h2 {
     align-items: center;
     justify-content: center;
     margin-bottom: 3%;
+}
+
+.slick-slider {
+    display: flex !important;
+    align-items: center;
+}
+
+.carousel__item {
+    display: flex !important;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .metkaimg {
