@@ -50,84 +50,23 @@ a:hover {
     opacity: 0.5;
 }
 
-.slider {
-    background-color: #2D3C82;
-    padding: 5px;
+main {
+    background: linear-gradient(to right, #2D3C82, #071A71,#4962D6 );
+    padding: 0 5% 5% 5%;
+
 }
 
 h2 {
     color: white;
     text-align: center;
-    padding: 20px;
     font-size: 30px;
     font-family: "Montserrat Alternates", sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.map {
-    background-color: #2D3C82;
-    padding: 5px;
-}
-
-.mapimg {
-    width: 90%;
-}
-
-.maps {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3%;
-}
-
-.metkaimg {
-    position: absolute;
-    top: 427px;
-    left: 805px;
-}
-
-.Veka {
-    background-color: #2D3C82;
-    background-image: url(images/Banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 50px;
-}
-
-.veka14 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #071a7149;
-    border: 5px white solid;
-    border-radius: 20px;
-    margin-bottom: 50px;
-}
-
-.Markopolo {
-    font-size: 1.5em;
-    text-align: justify;
-    padding-left: 100px;
-    width: 60%;
-    color: white;
-}
-
-.infovek14 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    padding-top: 30px;
-}
-
-.Markoimg {
-    width: 50%;
-}
-
-.veka16 {
+.container {
+    padding: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,69 +75,38 @@ h2 {
     flex-direction: row-reverse;
     border: 5px white solid;
     border-radius: 20px;
-}
-
-.Magelan {
-    font-size: 1.5em;
-    text-align: justify;
-    padding-right: 100px;
-    width: 60%;
-    color: white;
-}
-
-.infovek16 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    width: 40%;
-    padding-top: 30px;
-}
-
-.Magelanimg {
-    width: 70%;
-}
-
-.veka18 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    background-color: #071a7149;
-    border: 5px white solid;
-    border-radius: 20px;
-    margin-top: 50px;
-}
-
-.JamesKyk {
-    font-size: 1.5em;
-    text-align: justify;
-    padding-left: 100px;
-    width: 60%;
-    color: white;
-}
-
-.infovek18 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 40%;
-    padding-top: 30px;
-}
-
-.JamesKykimg {
-    width: 40%;
+    margin-bottom: 5%;
 }
 
 h3 {
     color: white;
     text-align: center;
-    margin: 20px;
     font-size: 30px;
     font-family: "Montserrat Alternates", sans-serif;
+    padding-bottom: 2%;
 }
 
+.text {
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 2%;
+}
+
+.textul {
+    list-style: circle;
+}
+
+.Fotoimg {
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
 
 footer {
     background-color: #071A71;

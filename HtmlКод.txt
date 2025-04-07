@@ -15,9 +15,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href="WaterSwimmers.html">Мореплавотели</a></li>
-                <li><a href="Veka.html">Века</a></li>
-                <li><a href="AboutMe.html">О нас</a></li>
+                <li><a href="">Карта</a></li>
+                <li><a href="">Мореплавотели</a></li>
+                <li><a href="">Века</a></li>
+                <li><a href="">О нас</a></li>
             </ul>
         </nav>
     </header>
@@ -28,7 +29,10 @@
         <section class="map">
             <h2>Карта открытий</h2>
             <div class="maps">
-                <img src="images/Карта открытий.jpg" alt="Карта открытий" class="mapimg">
+                <img src="images/mapsimg.jpg" alt="Карта открытий" class="mapimg">
+                <a href="">
+                    <img src="images/metkabezfona.png" alt="Метка на карте" class="metkaimg">
+                </a>
             </div>
         </section>
         <section class="Veka">

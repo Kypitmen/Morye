@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", serif;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+header {
+    background-color: #4962D6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoimg {
+    padding: 10px;
+    animation: bob 5s infinite ease-in-out;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+main {
+    background-color: #2D3C82;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.waterswimmers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px 30px 30px;
+}
+
+.info {
+    padding: 0 2% 2% 2%;
+}
+
+.infop {
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+}
+
+.Fotoimg1 {
+    width: 350px;
+    height: 300px;
+}
+
+.Barencmimg {
+    width: 350px;
+    height: 350px;
+}
+
+.Genryimg {
+    width: 350px;
+    height: 350px;
+}
+
+.Jamesimg {
+    width: 350px;
+    height: 350px;
+}
+
+.Lyiimg {
+    width: 350px;
+    height: 350px;
+}
+
+.Fadeiimg {
+    width: 350px;
+    height: 350px;
+}
+
+footer {
+    background-color: #071A71;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoFoot {
+    display: flex;
+    align-items: center;
+}
+
+.logoimgFoot {
+    padding: 10px;
+}
+
+.logoimgFoot:hover {
+    animation: bob 3s infinite ease-in-out;
+}
+
+h6 {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.iconsimg {
+    width: 80%;
+}
+
+@keyframes bob {
+    0%, 100% {
+        transform: rotate(0);
+    }
+
+    25%, 75% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+}
+

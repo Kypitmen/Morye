@@ -45,11 +45,6 @@ a {
     margin-right: 35px;
 }
 
-a:hover {
-    text-decoration: underline;
-    opacity: 0.5;
-}
-
 .slider {
     background-color: #2D3C82;
     padding: 5px;
@@ -66,17 +61,13 @@ h2 {
 .map {
     background-color: #2D3C82;
     padding: 5px;
-}
 
-.mapimg {
-    width: 90%;
 }
 
 .maps {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3%;
 }
 
 .metkaimg {

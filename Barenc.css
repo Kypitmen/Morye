@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital@1&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Condensed", serif;
+    background-image: url(images/фон\ колумб.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: white;
+    font-weight: 400;
+}
+
+header {
+    background-color: #4963d67c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+.logoimg {
+    padding: 10px;
+    animation: bob 5s infinite ease-in-out;
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 35px;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: 0.5;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.waterswimmers {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px 30px 30px;
+}
+
+.info {
+    padding: 0 2% 2% 2%;
+}
+
+.infop {
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+}
+
+ol {
+    color: white;
+    font-size: 22px;
+    text-align: justify;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ColymbKorabl {
+    width: 55%;
+}
+
+h4 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding-top: 2%;
+}
+
+.Colymbsmert {
+    width: 40%;
+    margin-top: 40px;
+}
+
+.text {
+    padding: 2%;
+}
+
+.zakl {
+    padding: 5% 5% 5%;
+}
+
+.zakl1 {
+    border: 5px solid white;
+    padding: 2%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(to top, #071a7173, #2936707e);
+}
+
+h5 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding-bottom: 2%;
+}
+
+.zaklp {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}
+
+.textul {
+    color: white;
+    font-size: 22px;
+    list-style: circle;
+}
+
+footer {
+    background-color: #071a7185;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoFoot {
+    display: flex;
+    align-items: center;
+}
+
+.logoimgFoot {
+    padding: 10px;
+}
+
+.logoimgFoot:hover {
+    animation: bob 3s infinite ease-in-out;
+}
+
+h6 {
+    color: white;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.iconsimg {
+    width: 80%;
+}
+
+@keyframes bob {
+    0%, 100% {
+        transform: rotate(0);
+    }
+
+    25%, 75% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+}
+
